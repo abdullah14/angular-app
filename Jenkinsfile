@@ -2,7 +2,7 @@ pipeline {
   agent { label "master" }
   environment {
     registry = "aqayumacrcontainer.azurecr.io/sample-angular-app-image"
-    registryCredential = 'docker-cred'
+    registryCredential = 'azure-cred'
   }
   stages {
     
